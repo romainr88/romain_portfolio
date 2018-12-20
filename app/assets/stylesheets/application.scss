@@ -247,3 +247,23 @@ header.masthead p {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 153, 51, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(0, 153, 51, 0.5) !important;
 }
+
+section {
+  padding: 8rem 0;
+}
+
+.section-heading {
+  margin-top: 0;
+}
+
+.bg-green {
+  background-color: #33cc33 !important;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+hr.light {
+  border-color: #fff;
+}
