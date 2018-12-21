@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2018_12_21_001954) do
   enable_extension "plpgsql"
 
   create_table "skills", force: :cascade do |t|
-    t.string "type"
+    t.string "category"
     t.string "title"
     t.text "description"
     t.string "icon"
