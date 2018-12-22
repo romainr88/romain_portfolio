@@ -80,3 +80,40 @@ Portfolio.create!(
   )
   
 puts "3 portfolios created"
+
+Experience.create!(
+    date: "2018",
+    title: "Udemy Project 1",
+    description: "bla bla bla",
+    image: "1.jpg"
+  )
+
+Experience.create!(
+    date: "2018",
+    title: "Udemy Project 2",
+    description: "bla bla bla",
+    image: "2.jpg"
+  )
+
+Experience.create!(
+    date: "2018",
+    title: "Udemy Project 3",
+    description: "bla bla bla",
+    image: "3.jpg"
+  )
+
+Experience.create!(
+    date: "2018",
+    title: "Udemy Project 4",
+    description: "bla bla bla",
+    image: "3.jpg"
+  )
+  
+Experience.create!(
+    date: "2018",
+    title: "Udemy Project 5",
+    description: "bla bla bla",
+    image: "3.jpg"
+  )
+  
+puts "5 experiences created"

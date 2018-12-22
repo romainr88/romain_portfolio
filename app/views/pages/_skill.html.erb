@@ -9,7 +9,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <% @major_skills.each do |s| %>
+      <% @skills.majskills.each do |s| %>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="service-box mt-5 mx-auto">
             <%= icon('fas', s.icon, class: "fa-4x text-dark mb-3 sr-icon-1") %>
@@ -33,7 +33,7 @@
   </div>
   <div class="container">
     <div class="row">
-      <% @minor_skills.each do |s| %>
+      <% @skills.minskills.each do |s| %>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="service-box mt-5 mx-auto">
             <%= icon('fas', s.icon, class: "fa-4x text-green mb-3 sr-icon-1") %>
