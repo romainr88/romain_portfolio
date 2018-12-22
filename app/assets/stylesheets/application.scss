@@ -82,6 +82,7 @@ h6 {
 
 #mainNav .navbar-nav > li.nav-item > div.dropdown-menu {
   background-color: transparent;
+  border: none !important;
 }
 
 #mainNav .navbar-nav > li.nav-item > div.dropdown-menu > a.dropdown-item,
@@ -354,7 +355,7 @@ hr.dark {
 .timeline:before {
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 5%;
   left: 40px;
   width: 2px;
   margin-left: -1.5px;
@@ -460,6 +461,7 @@ hr.dark {
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
+    bottom: 5%;
   }
   .timeline > li {
     min-height: 100px;

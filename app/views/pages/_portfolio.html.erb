@@ -2,7 +2,7 @@
   <div class="container-fluid p-0">
     <div class="row no-gutters popup-gallery">
       <% @portfolios.each do |p| %>
-        <div class="col-lg-4 col-sm-6">
+        <div class="col-lg-4 col-sm-6 mx-auto">
             <%= link_to image_path("portfolio/fullsize/" + p.full_image),  class: "portfolio-box" do %>
             <%= image_tag "portfolio/thumbnails/" + p.thumb_image, class: "img-fluid" %>
             <div class="portfolio-box-caption">
