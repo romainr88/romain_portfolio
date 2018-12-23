@@ -15,7 +15,7 @@ $(document).ready(function() {
     }
   });
   
-    // Closes responsive menu when a scroll trigger link is clicked
+  // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
@@ -43,12 +43,60 @@ $(document).ready(function() {
   
   // Scroll reveal calls
   window.sr = ScrollReveal();
-
+  
   var i = 1
   var delay = 200;
   do {
-    sr.reveal('.sr-icon-' + i, {
+    sr.reveal('.sr-righttitle-' + i, {
+      origin: 'right',
       delay: delay,
+      distance : '100px',
+      easing   : 'ease-in-out',
+    });
+    delay += 200;
+    i++;
+  }
+  while (i < 4);
+  
+  var i = 1
+  var delay = 200;
+  do {
+    sr.reveal('.sr-leftttitle-' + i, {
+      origin: 'left',
+      delay: delay,
+      distance : '100px',
+      easing   : 'ease-in-out',
+    });
+    delay += 200;
+    i++;
+  }
+  while (i < 3);
+  
+  var i = 1
+  var delay = 200;
+  do {
+    sr.reveal('.sr-portfolio-' + i, {
+      origin: 'bottom',
+      delay: delay,
+      distance : '100px',
+      easing   : 'ease-in-out',
+    });
+    delay += 200;
+    i++;
+  }
+  while (i < 4);
+
+  var i = 1
+  var delay = 200;
+  var origin = 'left';
+  do {
+    if (i > 3) {
+      origin = 'right';
+    }
+    sr.reveal('.sr-icon-' + i, {
+      origin: origin,
+      delay: delay,
+      distance : '100px',
       scale: 0
     });
     if (delay == 800) {
@@ -74,12 +122,13 @@ $(document).ready(function() {
   var delay = 200;
   do {
     sr.reveal('.sr-contact-' + i, {
+      origin: 'right',
       delay: delay,
+      distance : '100px',
       scale: 0
     });
     delay += 200;
     i++;
   }
   while (i < 5);
-
 });
