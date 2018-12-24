@@ -3,7 +3,7 @@
     <div class="row no-gutters">
       <% @portfolios.each do |p| %>
         <div class="col-lg-4 col-sm-6 mx-auto sr-portfolio-<%= p.id.to_s %>">
-            <%= link_to "#portfolioModal" + p.id.to_s, 'data-toggle' => 'modal', class: "portfolio-box" do %>
+            <%= link_to "#portfolioModal" + p.id.to_s, "data-toggle" => 'modal', class: "portfolio-box" do %>
             <%= image_tag "portfolio/thumbnails/" + p.thumb_image, class: "img-fluid" %>
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">

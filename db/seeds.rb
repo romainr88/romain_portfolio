@@ -62,21 +62,24 @@ Portfolio.create!(
     title: "Udemy Project",
     category: "Ruby On Rail",
     full_image: "1.jpg" ,
-    thumb_image: "1.jpg"
+    thumb_image: "1.jpg",
+    description: "blablablabla"
   )
 
 Portfolio.create!(
     title: "Udemy Project",
     category: "Ruby On Rail",
     full_image: "2.jpg" ,
-    thumb_image: "2.jpg"
+    thumb_image: "2.jpg",
+    description: "blablablabla"
   )
   
 Portfolio.create!(
     title: "Udemy Project",
     category: "Ruby On Rail",
     full_image: "3.jpg" ,
-    thumb_image: "3.jpg"
+    thumb_image: "3.jpg",
+    description: "blablablabla"
   )
   
 puts "3 portfolios created"
