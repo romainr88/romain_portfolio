@@ -545,12 +545,15 @@ hr.dark {
   border-color: #212529;
 }
 
-.portfolio-modal > div.modal-dialog > div.modal-content > div.modal-footer > .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.portfolio-modal > div.modal-dialog > div.modal-content > div.modal-footer > .btn-primary:hover, 
+.portfolio-modal > div.modal-dialog > div.modal-content > div.modal-footer > .btn-primary:focus, 
+.portfolio-modal > div.modal-dialog > div.modal-content > div.modal-footer > .btn-primary:active {
   color: #fff;
   background-color: #4f5963 !important;
 }
 
-.portfolio-modal > div.modal-dialog > div.modal-content > div.modal-footer > .btn-primary:active, .btn-primary:focus {
+.portfolio-modal > div.modal-dialog > div.modal-content > div.modal-footer > .btn-primary:active, 
+.portfolio-modal > div.modal-dialog > div.modal-content > div.modal-footer > .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(79, 89, 99, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(79, 89, 99, 0.5) !important;
 }

@@ -63,7 +63,8 @@ Portfolio.create!(
     category: "Ruby On Rail",
     full_image: "1.jpg" ,
     thumb_image: "1.jpg",
-    description: "blablablabla"
+    description: "blablablabla",
+    website: "https://www.google.fr"
   )
 
 Portfolio.create!(
@@ -71,7 +72,8 @@ Portfolio.create!(
     category: "Ruby On Rail",
     full_image: "2.jpg" ,
     thumb_image: "2.jpg",
-    description: "blablablabla"
+    description: "blablablabla",
+    website: "https://www.google.fr"
   )
   
 Portfolio.create!(
@@ -79,10 +81,29 @@ Portfolio.create!(
     category: "Ruby On Rail",
     full_image: "3.jpg" ,
     thumb_image: "3.jpg",
-    description: "blablablabla"
+    description: "blablablabla",
+    website: "https://www.google.fr"
   )
   
 puts "3 portfolios created"
+
+
+3.times do |technology|
+  technology += 1
+  Portfolio.find(technology).technologies.create!(
+    name: "html5.png"
+  )
+end
+
+3.times do |technology|
+  technology += 1
+  Portfolio.find(technology).technologies.create!(
+    name: "html5.png"
+  )
+end
+
+
+puts "3 technologies created"
 
 Experience.create!(
     date: "2018",
