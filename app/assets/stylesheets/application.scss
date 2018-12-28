@@ -565,3 +565,45 @@ hr.dark {
 .btn-sm {
   padding: 0.5rem 1rem;
 }
+
+.container > div.row > form.col-lg-6 > .btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container > div.row > form.col-lg-6 > div > .btn-primary {
+  color: #fff !important;
+  background-color: #212529;
+  border-color: #212529;
+}
+
+.container > div.row > form.col-lg-6 > div > .btn-primary:hover, 
+.container > div.row > form.col-lg-6 > div > .btn-primary:focus, 
+.container > div.row > form.col-lg-6 > div > .btn-primary:active {
+  color: #fff;
+  background-color: #4f5963 !important;
+}
+
+.container > div.row > form.col-lg-6 > div > .btn-primary:active, 
+.container > div.row > form.col-lg-6 > div > .btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(79, 89, 99, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(79, 89, 99, 0.5) !important;
+}
+
+.alert {
+  margin: 0rem;
+  padding: 0.35rem 0.65rem;
+}
+
+.form-control {
+   border-color: #212529 !important;
+}
+
+.form-control:focus {
+  border-color: #4f5963 !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(79, 89, 99, 0.25) !important;
+  box-shadow: 0 0 0 0.2rem rgba(79, 89, 99, 0.25) !important;
+}
