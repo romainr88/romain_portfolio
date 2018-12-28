@@ -86,6 +86,20 @@ $(document).ready(function() {
     i++;
   }
   while (i < 4);
+  
+  var i = 1
+  var delay = 200;
+  do {
+    sr.reveal('.sr-contact-' + i, {
+      origin: 'bottom',
+      delay: delay,
+      distance : '100px',
+      easing   : 'ease-in-out',
+    });
+    delay += 200;
+    i++;
+  }
+  while (i < 5);
 
   var i = 1
   var delay = 200;

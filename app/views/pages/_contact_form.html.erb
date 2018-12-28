@@ -1,18 +1,22 @@
 <%= form_for @contact, url: pages_path, remote: true, html: {class: "col-lg-6 mx-auto", id: "contact_form"} do |f| %>
-        <div class="form-group">
+        <div class="form-group sr-contact-1">
             <%= f.text_field  :name, required: true, class: "form-control", placeholder: "Name" %>
         </div>
-        <div class="form-group">
+        <div class="form-group sr-contact-2">
             <%= f.text_field :email, required: true, class: "form-control", placeholder: "Enter email" %>
         </div>
-        <div class="form-group">
+        <div class="form-group sr-contact-3">
             <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "form-control", 
                 placeholder: "Your message"%>
         </div>
-        <div class ="pb-3">
-            <div class="col-md-10 float-left" id="flash-message">
+        <div class="hidden">
+            <%= f.label :nickname %>
+            <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
+        </div>
+        <div>
+            <div class="col-md-10 float-left" id="flash_message">
                 <%= render 'contact_flash' %>
             </div>
-            <%= f.submit "Submit", class: "btn btn-sm btn-primary float-right" %>
+            <%= f.submit "Submit", class: "btn btn-sm btn-primary float-right sr-contact-4" %>
         </div>
 <% end %>

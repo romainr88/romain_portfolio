@@ -593,9 +593,19 @@ hr.dark {
   box-shadow: 0 0 0 0.2rem rgba(79, 89, 99, 0.5) !important;
 }
 
+.container > div.row > form.col-lg-6 > .hidden { 
+  display: none !important; 
+}
+
 .alert {
-  margin: 0rem;
-  padding: 0.35rem 0.65rem;
+  margin-bottom: 0.5rem;
+  padding: 0.30rem 0.60rem;
+}
+
+@media (min-width: 768px) {
+  .alert {
+    margin: 0rem;
+  }
 }
 
 .form-control {
