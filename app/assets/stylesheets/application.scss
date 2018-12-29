@@ -2,6 +2,13 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+@font-face {
+  font-family: "Merriweather Regular";
+  src: url(/assets/Merriweather-Regular.ttf) format("truetype");
+    font-family: "OpenSans Regular";
+  src: url(/assets/OpenSans-Regular.ttf) format("truetype");
+}
+
 body,
 html {
   width: 100%;
@@ -617,3 +624,10 @@ hr.dark {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(79, 89, 99, 0.25) !important;
   box-shadow: 0 0 0 0.2rem rgba(79, 89, 99, 0.25) !important;
 }
+
+.logo {
+  width: 3%;
+  opacity: 0.8;
+  vertical-align: text-bottom;
+}
+

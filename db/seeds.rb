@@ -87,23 +87,72 @@ Portfolio.create!(
   
 puts "3 portfolios created"
 
+Portfolio.find(1).technologies.create!(
+  name: "HTML5",
+  logo: "html5.png"
+)
 
-3.times do |technology|
-  technology += 1
-  Portfolio.find(technology).technologies.create!(
-    name: "html5.png"
-  )
-end
+Portfolio.find(1).technologies.create!(
+  name: "CSS3",
+  logo: "css3.png"
+)
 
-3.times do |technology|
-  technology += 1
-  Portfolio.find(technology).technologies.create!(
-    name: "html5.png"
-  )
-end
+Portfolio.find(1).technologies.create!(
+  name: "JavaScript",
+  logo: "js.png"
+)
 
+Portfolio.find(1).technologies.create!(
+  name: "Bootstrap 4",
+  logo: "bootstrap.png"
+)
 
-puts "3 technologies created"
+Portfolio.find(1).technologies.create!(
+  name: "Ruby On Rails",
+  logo: "ruby_on_rails.png"
+)
+
+Portfolio.find(1).technologies.create!(
+  name: "PostgreSQL",
+  logo: "postgresql.png"
+)
+
+Portfolio.find(2).technologies.create!(
+  name: "HTML5",
+  logo: "html5.png"
+)
+
+Portfolio.find(2).technologies.create!(
+  name: "CSS3",
+  logo: "css3.png"
+)
+
+Portfolio.find(2).technologies.create!(
+  name: "JavaScript",
+  logo: "js.png"
+)
+
+Portfolio.find(2).technologies.create!(
+  name: "Bootstrap 4",
+  logo: "bootstrap.png"
+)
+
+Portfolio.find(2).technologies.create!(
+  name: "Ruby On Rails",
+  logo: "ruby_on_rails.png"
+)
+
+Portfolio.find(2).technologies.create!(
+  name: "PostgreSQL",
+  logo: "postgresql.png"
+)
+
+Portfolio.find(3).technologies.create!(
+  name: "Ruby",
+  logo: "ruby.png"
+)
+
+puts "13 technologies created"
 
 Experience.create!(
     date: "2018",

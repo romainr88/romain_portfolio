@@ -21,9 +21,11 @@
                   <h5 class="mt-3 text-muted">Features:</h5>
                   <p><%= p.description %></p>
                   <h5 class="mt-3 text-muted">Language and Framework utilised:</h5>
-                  <% @portfolios.find(p.id).technologies.each do |t| %>
-                    <%= image_tag("logo/" + t.name, class: "") %>
-                  <% end %>
+                  <div class="text-left">
+                    <% @portfolios.find(p.id).technologies.each do |t| %>
+                      <%= image_tag("logo/" + t.logo, class: "logo mx-1", title: t.name) %>
+                    <% end %>
+                  </div>
                 </div>
               </div>
             </div>
