@@ -2,18 +2,18 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-dark text-uppercase">Experience</h2>
-        <hr class="my-4">
-        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        <h2 class="section-heading text-dark text-uppercase sr-righttitle-1">Experience</h2>
+        <hr class="my-4 sr-righttitle-2">
+        <p class="section-subheading text-muted sr-righttitle-3">Relevant work experience</p>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <ul class="timeline">
+        <ul class="timeline sr-experience-1">
         <% @experiences.reverse.each do |e| %>  
             <% @experiences.oddexperience.each do |i| %>
                 <% if i.id == e.id %>
-                  <li>
+                  <li class="sr-experience-<%= e.id.to_s %>">
                     <div class="timeline-image">
                         <%= image_tag "experience/" + e.image, class: "rounded-circle img-fluid" %>
                     </div>
@@ -31,7 +31,7 @@
             <% end %>
             <% @experiences.evenexperience.each do |i| %>
                 <% if i.id == e.id %>
-                  <li class="timeline-inverted">
+                  <li class="timeline-inverted sr-experience-<%= e.id.to_s %>">
                     <div class="timeline-image">
                         <%= image_tag "experience/" + e.image, class: "rounded-circle img-fluid" %>
                     </div>

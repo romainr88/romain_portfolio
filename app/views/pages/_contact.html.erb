@@ -2,21 +2,13 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
-        <h2 class="section-heading text-white">Let's Get In Touch!</h2>
-        <hr class="my-4 dark">
-        <p class="mb-5 text-light">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+        <h2 class="section-heading text-white text-uppercase sr-leftttitle-1">Contact</h2>
+        <hr class="my-4 dark sr-leftttitle-2">
+        <p class="mb-5 text-light">Have a question or want to work together?</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-1 ml-auto text-center">
-        <%= link_to icon("fab", "linkedin", class: "fa-3x text-dark mb-3 sr-contact-1 icon-dark"), "http://www.google.fr", target: :_blank %>
-      </div>
-      <div class="col-sm-1 mx-1 text-center">
-        <%= link_to icon("fab", "github", class: "fa-3x text-dark mb-3 sr-contact-1 icon-dark"), "https://github.com/romainr88", target: :_blank %>
-      </div>
-      <div class="col-sm-1 mr-auto text-center">
-        <%= mail_to "test@test.com", icon("fas", "envelope", class: "fa-3x text-dark mb-3 sr-contact-1 icon-dark") %>
-      </div>
+        <%= render 'contact_form' %>
     </div>
   </div>
 </section>
