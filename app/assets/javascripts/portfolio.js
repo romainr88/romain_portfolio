@@ -71,7 +71,7 @@ $(document).ready(function() {
     delay += 200;
     i++;
   }
-  while (i < 3);
+  while (i < 4);
   
   var i = 1
   var delay = 200;
@@ -87,20 +87,6 @@ $(document).ready(function() {
   }
   while (i < 4);
   
-  var i = 1
-  var delay = 200;
-  do {
-    sr.reveal('.sr-contact-' + i, {
-      origin: 'bottom',
-      delay: delay,
-      distance : '100px',
-      easing   : 'ease-in-out',
-    });
-    delay += 200;
-    i++;
-  }
-  while (i < 5);
-
   var i = 1
   var delay = 200;
   var origin = 'left';
@@ -132,6 +118,12 @@ $(document).ready(function() {
     i++;
   }
   while (i < 6);
+  
+  sr.reveal('.sr-contact-1', {
+    delay: 200,
+    scale: 0
+  });
+
   
   // Hide navbar when modals trigger
   $('.portfolio-modal').on('show.bs.modal', function(e) {

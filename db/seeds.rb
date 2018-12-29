@@ -1,87 +1,87 @@
 Skill.create!(
     category: "maj",
-    title: "System administration",
-    description: "Windows, Windows Server, Linux" ,
+    title: "System Administration",
+    description: "Windows, Windows Server, Active Directory, DPM, Linux, Apache, VMWare" ,
     icon: "server"
   )
   
 Skill.create!(
     category: "maj",
-    title: "Scripting",
-    description: "NSIS, PowerShell, Batch" ,
-    icon: "code"
+    title: "Database Administration",
+    description: "MySQL, SQL Server, PostgreSQL" ,
+    icon: "database"
   )
 
 Skill.create!(
     category: "maj",
-    title: "Scripting",
-    description: "NSIS, PowerShell, Batch" ,
-    icon: "code"
+    title: "Network Administration",
+    description: "TCP/IP, DNS, DHCP, VLAN, Switch, Router, Proxy, Firewall" ,
+    icon: "network-wired"
   )
   
 Skill.create!(
     category: "maj",
-    title: "Scripting",
-    description: "NSIS, PowerShell, Batch" ,
-    icon: "code"
+    title: "Deployement Management",
+    description: "SCCM, NSIS, PXE, Orca" ,
+    icon: "sitemap"
   )
 
 puts "4 major skills created"
 
 Skill.create!(
     category: "min",
-    title: "Web Developement",
-    description: "Ruby On Rail, Ruby, Php" ,
-    icon: "server"
+    title: "Scripting",
+    description: "PowerShell, Shell, VBScript" ,
+    icon: "terminal"
   )
   
 Skill.create!(
     category: "min",
-    title: "Database management",
-    description: "MySQL, SQL Server, PostgreSQL" ,
+    title: "Front-End Developement",
+    description: "HTML, CSS, Bootstrap, JavaScript" ,
+    icon: "file-code"
+  )
+
+Skill.create!(
+    category: "min",
+    title: "Back-End Developement",
+    description: "Ruby, Ruby On Rails, Php" ,
     icon: "code"
   )
 
 Skill.create!(
     category: "min",
-    title: "Database management",
-    description: "MySQL, SQL Server, PostgreSQL" ,
-    icon: "code"
-  )
-
-Skill.create!(
-    category: "min",
-    title: "Database management",
-    description: "MySQL, SQL Server, PostgreSQL" ,
-    icon: "code"
+    title: "Developer Tools",
+    description: "Git, AWS Cloud9, AWS S3, Heroku" ,
+    icon: "cubes"
   )
 
 puts "4 minor skills created"
 
 Portfolio.create!(
-    title: "Udemy Project",
+    title: "Project 1",
     category: "Ruby On Rail",
     full_image: "1.jpg" ,
     thumb_image: "1.jpg",
-    description: "blablablabla",
+    description: "Project 1",
     website: "https://www.google.fr"
   )
 
 Portfolio.create!(
-    title: "Udemy Project",
+    title: "Project 2",
     category: "Ruby On Rail",
     full_image: "2.jpg" ,
     thumb_image: "2.jpg",
-    description: "blablablabla",
+    description: "Project 2",
     website: "https://www.google.fr"
   )
   
 Portfolio.create!(
-    title: "Udemy Project",
-    category: "Ruby On Rail",
+    title: "Project 3",
+    category: "Ruby",
     full_image: "3.jpg" ,
     thumb_image: "3.jpg",
-    description: "blablablabla",
+    description: "Project 3",
     website: "https://www.google.fr"
   )
   
@@ -156,36 +156,36 @@ puts "13 technologies created"
 
 Experience.create!(
     date: "2018",
-    title: "Udemy Project 1",
-    description: "bla bla bla",
+    title: "Experience 1",
+    description: "Experience 1",
     image: "1.jpg"
   )
 
 Experience.create!(
     date: "2018",
-    title: "Udemy Project 2",
-    description: "bla bla bla",
+    title: "Experience 2",
+    description: "Experience 2",
     image: "2.jpg"
   )
 
 Experience.create!(
     date: "2018",
-    title: "Udemy Project 3",
-    description: "bla bla bla",
+    title: "Experience 3",
+    description: "Experience 3",
     image: "3.jpg"
   )
 
 Experience.create!(
     date: "2018",
-    title: "Udemy Project 4",
-    description: "bla bla bla",
+    title: "Experience 4",
+    description: "Experience 4",
     image: "3.jpg"
   )
   
 Experience.create!(
     date: "2018",
-    title: "Udemy Project 5",
-    description: "bla bla bla",
+    title: "Experience 5",
+    description: "Experience 5",
     image: "3.jpg"
   )
   
