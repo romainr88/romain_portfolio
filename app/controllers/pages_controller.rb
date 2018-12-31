@@ -4,6 +4,9 @@ class PagesController < ApplicationController
     @portfolios = Portfolio.all
     @experiences = Experience.all
     @contact = Contact.new(params[:contact])
+    @page_title = "Home"
+    @page_description = "Portfolio Home page."
+    @page_keywords = "Home, Index, Romain Rouyer, Romain, Rouyer, IT, Engineer, Developer, Web, Portfolio"
   end
   
   def create
