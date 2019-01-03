@@ -67,7 +67,7 @@ Portfolio.create!(
                   - UI/UX Animations using <b>JQuery</b> and <b>JavaScript</b>.<br>
                   - Responsive Website Design.<br>
                   - <b>PostgreSQL</b> as a database system. ",
-    website: "https://www.google.fr"
+    website: "www.romainr.com"
   )
 
 Portfolio.create!(
