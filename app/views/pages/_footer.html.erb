@@ -7,10 +7,13 @@
           <div class="col-sm-1 mx-1">
             <%= link_to icon("fab", "linkedin", class: "fa-3x mb-3 icon-green", title: "LinkedIn"), "https://www.linkedin.com/in/romain-rouyer-874170b9/", target: :_blank %>
           </div>
-          <div class="col-sm-1 mr-auto">
+          <div class="col-sm-1 mx-1">
             <%= link_to icon("fas", "file-alt", class: "fa-3x mb-3 icon-green", title: "Resume"), "", target: :_blank %>
-          </div>      
+          </div> 
+          <div class="col-sm-1 mr-auto">
+            <%= mail_to "test@test.com", icon("fas", "envelope", class: "fa-3x icon-green", title: "Contact") %>
+          </div>
         </div>
     </div> 
-    <div class="highlight pt-3">Romain Rouyer <span class="text-light">©2018</span></div>
+    <div class="highlight pt-3">Romain Rouyer <span class="text-light">©2019</span></div>
 </section>

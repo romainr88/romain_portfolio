@@ -23,7 +23,7 @@
                         <h4 class="subheading"><%= e.title %></h4>
                       </div>
                       <div class="timeline-body">
-                        <p class="text-muted"><%= e.description %></p>
+                        <p class="text-muted text-right"><%= e.description.html_safe %></p>
                       </div>
                     </div>
                   </li>
@@ -41,7 +41,7 @@
                         <h4 class="subheading"><%= e.title %></h4>
                       </div>
                       <div class="timeline-body">
-                        <p class="text-muted"><%= e.description %></p>
+                        <p class="text-muted text-left"><%= e.description.html_safe %></p>
                       </div>
                     </div>
                   </li>

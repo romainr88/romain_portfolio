@@ -6,7 +6,7 @@ class PagesController < ApplicationController
     @contact = Contact.new(params[:contact])
     @page_title = "Home"
     @page_description = "Portfolio Home page."
-    @page_keywords = "Home, Index, Romain Rouyer, Romain, Rouyer, IT, Engineer, Developer, Web, Portfolio"
+    @page_keywords = "Home, Index, Romain Rouyer, Romain, Rouyer, romainr, IT, Engineer, Developer, Web, Portfolio"
   end
   
   def create
