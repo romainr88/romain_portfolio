@@ -67,3 +67,5 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'mail_form'
 gem 'dotenv-rails'
 gem 'meta-tags'
+
+ruby "2.4.1"
