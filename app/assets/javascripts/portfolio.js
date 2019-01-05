@@ -51,7 +51,7 @@ $(document).ready(function() {
     sr.reveal('.sr-righttitle-' + i, {
       origin: 'right',
       delay: delay,
-      distance : '100px',
+      distance : '15px',
       easing   : 'ease-in-out',
     });
     delay += 200;
@@ -65,7 +65,7 @@ $(document).ready(function() {
     sr.reveal('.sr-leftttitle-' + i, {
       origin: 'left',
       delay: delay,
-      distance : '100px',
+      distance : '15px',
       easing   : 'ease-in-out',
     });
     delay += 200;
@@ -79,7 +79,7 @@ $(document).ready(function() {
     sr.reveal('.sr-portfolio-' + i, {
       origin: 'bottom',
       delay: delay,
-      distance : '100px',
+      distance : '15px',
       easing   : 'ease-in-out',
     });
     delay += 200;
@@ -97,7 +97,7 @@ $(document).ready(function() {
     sr.reveal('.sr-icon-' + i, {
       origin: origin,
       delay: delay,
-      distance : '100px',
+      distance : '15px',
       scale: 0
     });
     if (delay == 800) {
