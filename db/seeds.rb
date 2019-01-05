@@ -67,7 +67,7 @@ Portfolio.create!(
                   - UI/UX Animations using <b>JQuery</b> and <b>JavaScript</b>.<br>
                   - Responsive Website Design.<br>
                   - <b>PostgreSQL</b> as a database system. ",
-    website: "www.romainr.com"
+    website: "http://www.romainr.com"
   )
 
 Portfolio.create!(
@@ -85,7 +85,7 @@ Portfolio.create!(
                   Sign on as <b>login:</b> test@test.com / <b>password:</b> testtest or <b>login:</b> admin@test.com / 
                   <b>password:</b> admintest for testing the application.
     ',
-    website: "https://www.google.fr"
+    website: "https://romainr-devcamp-portfolio.herokuapp.com"
   )
   
 Portfolio.create!(
