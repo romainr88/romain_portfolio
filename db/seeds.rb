@@ -63,7 +63,7 @@ Portfolio.create!(
     category: "Ruby On Rails",
     full_image: "romain_portfolio.png" ,
     thumb_image: "romain_portfolio.png",
-    description: "The idea of Romain Portfolio was to showcased my skills, experiences and projects in single-page.<br>
+    description: "The idea of Romain Portfolio was to showcase my skills, experiences and projects in single-page.<br>
                   - UI/UX Animations using <b>JQuery</b> and <b>JavaScript</b>.<br>
                   - Responsive Website Design.<br>
                   - <b>PostgreSQL</b> as a database system. ",
