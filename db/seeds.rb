@@ -60,7 +60,7 @@ puts "4 minor skills created"
 
 Portfolio.create!(
     title: "Romain Portfolio",
-    category: "Ruby On Rail",
+    category: "Ruby On Rails",
     full_image: "romain_portfolio.png" ,
     thumb_image: "romain_portfolio.png",
     description: "The idea of Romain Portfolio was to showcased my skills, experiences and projects in single-page.<br>
@@ -72,10 +72,10 @@ Portfolio.create!(
 
 Portfolio.create!(
     title: "Devcamp Portfolio",
-    category: "Ruby On Rail",
+    category: "Ruby On Rails",
     full_image: "devcamp_portfolio.png" ,
     thumb_image: "devcamp_portfolio.png",
-    description: 'Devcamp Portfolio is a project i did while "Dissecting Ruby On Rail 5" Udemy course.<br>
+    description: 'Devcamp Portfolio is a project i did while "Dissecting Ruby On Rails 5" Udemy course.<br>
                   - Login system using <b>Devise</b>.<br>
                   - Ability to upload pictures to <b>Amazon Web Service</b> (AWS) S3.<br>
                   - Drag and drop interface using <b>JQuery</b> and <b>CoffeeScript</b>.<br>
