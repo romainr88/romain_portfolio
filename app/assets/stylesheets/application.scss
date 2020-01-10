@@ -21,7 +21,7 @@ body {
 
 #background {
   position: fixed;
-  top: 60%;
+  top: 50%;
   left: 50%;
   min-width: 100%;
   min-height: 100%;
@@ -584,14 +584,14 @@ section {
   border-color: #212529;
 }
 
-.portfolio-modal > div.modal-dialog > div.modal-content > div.modal-footer > .btn-primary:hover, 
-.portfolio-modal > div.modal-dialog > div.modal-content > div.modal-footer > .btn-primary:focus, 
+.portfolio-modal > div.modal-dialog > div.modal-content > div.modal-footer > .btn-primary:hover,
+.portfolio-modal > div.modal-dialog > div.modal-content > div.modal-footer > .btn-primary:focus,
 .portfolio-modal > div.modal-dialog > div.modal-content > div.modal-footer > .btn-primary:active {
   color: #fff;
   background-color: #4f5963 !important;
 }
 
-.portfolio-modal > div.modal-dialog > div.modal-content > div.modal-footer > .btn-primary:active, 
+.portfolio-modal > div.modal-dialog > div.modal-content > div.modal-footer > .btn-primary:active,
 .portfolio-modal > div.modal-dialog > div.modal-content > div.modal-footer > .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(79, 89, 99, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(79, 89, 99, 0.5) !important;
@@ -611,21 +611,21 @@ section {
   border-color: #212529;
 }
 
-.container > div.row > form.col-lg-6 > div > .btn-primary:hover, 
-.container > div.row > form.col-lg-6 > div > .btn-primary:focus, 
+.container > div.row > form.col-lg-6 > div > .btn-primary:hover,
+.container > div.row > form.col-lg-6 > div > .btn-primary:focus,
 .container > div.row > form.col-lg-6 > div > .btn-primary:active {
   color: #fff;
   background-color: #4f5963 !important;
 }
 
-.container > div.row > form.col-lg-6 > div > .btn-primary:active, 
+.container > div.row > form.col-lg-6 > div > .btn-primary:active,
 .container > div.row > form.col-lg-6 > div > .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(79, 89, 99, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(79, 89, 99, 0.5) !important;
 }
 
-.container > div.row > form.col-lg-6 > .hidden { 
-  display: none !important; 
+.container > div.row > form.col-lg-6 > .hidden {
+  display: none !important;
 }
 
 .form-control {

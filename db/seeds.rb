@@ -4,7 +4,7 @@ Skill.create!(
     description: "Windows, Windows Server, Active Directory, DPM, Linux, Apache, VMWare" ,
     icon: "server"
   )
-  
+
 Skill.create!(
     category: "maj",
     title: "Database Administration",
@@ -18,7 +18,7 @@ Skill.create!(
     description: "TCP/IP, DNS, DHCP, VLAN, Switch, Router, Proxy, Firewall" ,
     icon: "network-wired"
   )
-  
+
 Skill.create!(
     category: "maj",
     title: "Deployement Management",
@@ -34,7 +34,7 @@ Skill.create!(
     description: "PowerShell, Shell, VBScript" ,
     icon: "terminal"
   )
-  
+
 Skill.create!(
     category: "min",
     title: "Front-End Developement",
@@ -45,14 +45,14 @@ Skill.create!(
 Skill.create!(
     category: "min",
     title: "Back-End Developement",
-    description: "Ruby, Ruby On Rails, Php" ,
+    description: "Ruby, Ruby On Rails, Python" ,
     icon: "code"
   )
 
 Skill.create!(
     category: "min",
     title: "Developer Tools",
-    description: "Git, AWS Cloud9, AWS S3, Heroku" ,
+    description: "Git, Heroku" ,
     icon: "cubes"
   )
 
@@ -82,22 +82,22 @@ Portfolio.create!(
                   - Real time chat engine for comments using <b>Action cable</b>.<br>
                   - <b>PostgreSQL</b> as a database system.<br>
                   <br>
-                  Sign on as <b>login:</b> test@test.com / <b>password:</b> testtest or <b>login:</b> admin@test.com / 
+                  Sign on as <b>login:</b> test@test.com / <b>password:</b> testtest or <b>login:</b> admin@test.com /
                   <b>password:</b> admintest for testing the application.
     ',
     website: "https://romainr-devcamp-portfolio.herokuapp.com"
   )
-  
+
 Portfolio.create!(
     title: "Gem Fortnite API",
     category: "Ruby",
     full_image: "fortnite_api_gem.png" ,
     thumb_image: "fortnite_api_gem.png",
-    description: "Fortnite API is a <b>Ruby gem</b> which allows you to retrieve informations from Fortnite in an easy way through 
+    description: "Fortnite API is a <b>Ruby gem</b> which allows you to retrieve informations from Fortnite in an easy way through
                   fortnitetracker.com API.",
     website: "https://rubygems.org/gems/fortnite_api"
   )
-  
+
 puts "3 portfolios created"
 
 Portfolio.find(1).technologies.create!(
@@ -195,7 +195,7 @@ Experience.create!(
     ",
     image: "sysadmin1.jpg"
   )
-  
+
 Experience.create!(
     date: "2013-2018",
     title: "System Administrator",
@@ -205,15 +205,15 @@ Experience.create!(
                   •	Deployed, updated and managed applications on over 500 clients and 3 terminal server.<br>
                   •	Implemented document management software, business process management software and webmail software.<br>
                   •	Built Windows images for OS deployment (PXE).<br>
-                  •	Contributed to installation and configuration of ITSM software, System Center Data Protection Manager, 
-                    Microsoft System Center Configuration Manager, Microsoft Terminal Server, as well as to a backup tape 
+                  •	Contributed to installation and configuration of ITSM software, System Center Data Protection Manager,
+                    Microsoft System Center Configuration Manager, Microsoft Terminal Server, as well as to a backup tape
                     library and backup plan.<br>
-                  •	Migrated over 500 clients and 2000 accounts to UNIX domain to Windows domain, plus Windows XP/Vista to 
+                  •	Migrated over 500 clients and 2000 accounts to UNIX domain to Windows domain, plus Windows XP/Vista to
                     Windows 7.<br>
                   •	Created and maintained detailed maintenance and contingency plans and documentation for IT infrastructure.<br>
                   •	Provided an efficient support and participated in on-call rotation to supply 24 X 7 support.
     ",
     image: "sysadmin2.jpg"
   )
-  
+
 puts "5 experiences created"
