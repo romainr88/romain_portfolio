@@ -52,7 +52,7 @@ Skill.create!(
 Skill.create!(
     category: "min",
     title: "Developer Tools",
-    description: "Git, Heroku" ,
+    description: "Git, Heroku, Amazon S3" ,
     icon: "cubes"
   )
 
@@ -82,7 +82,7 @@ Portfolio.create!(
                   - Real time chat engine for comments using <b>Action cable</b>.<br>
                   - <b>PostgreSQL</b> as a database system.<br>
                   <br>
-                  Sign on as <b>login:</b> test@test.com / <b>password:</b> testtest or <b>login:</b> admin@test.com /
+                  Sign on as <b>login:</b> user@test.com / <b>password:</b> usertest or <b>login:</b> editor@test.com / <b>password:</b> editortest or <b>login:</b> admin@test.com /
                   <b>password:</b> admintest for testing the application.
     ',
     website: "https://romainr-devcamp-portfolio.herokuapp.com"
