@@ -133,4 +133,10 @@ $(document).ready(function() {
     $('.navbar').removeClass('d-none');
   })
 
+  // Typed.js home page text
+  var typed = new Typed('#typed', {
+   stringsElement: '#typed-strings',
+   typeSpeed: 40
+  });
+
 });
